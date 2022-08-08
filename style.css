@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(black 40%,grey 80%,blue);
+    color: white;
+    font-size: 2rem;
+    
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing:5px;
+}
+.clock{
+    display:flex;
+    align-items: center;
+    border: 5px solid black;
+    padding: 30px;
+    
+    
+}
+.clock div{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+#hour, #min ,#sec{
+    font-size: 7rem;
+    font-weight: 900;
+}
+.colon{
+  
+    font-size: 7rem;
+    margin-bottom: 35px;
+}
+.text{
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    display: none;
+}
+#period{
+    padding-left: 20px;
+    font-size: 5rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight:900;
+}
